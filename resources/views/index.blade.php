@@ -1,3 +1,3 @@
 <x-app-layout>
-    <div>Inex of Ideas</div>
+    <div>Index of Ideas</div>
 </x-app-layout>
