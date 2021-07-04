@@ -25914,6 +25914,10 @@ select {
   -webkit-line-clamp: unset;
 }
 
+[x-cloak] {
+  display:nonw !important;
+}
+
 /* vertical line to the left of the comments */
 
 .comments-container::before {
@@ -25944,8 +25948,7 @@ select {
 
 /* hides last vertical line from comment */
 
-.comment-container:last-child::after
-{
+.comment-container:last-child::after{
   position: absolute;
   display: block;
   top: 60px;

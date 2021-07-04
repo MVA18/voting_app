@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+[x-cloak] {
+    display:nonw !important;
+}
+
 /* vertical line to the left of the comments */
 .comments-container::before {
     position: absolute;
@@ -29,8 +33,7 @@
 }
 
 /* hides last vertical line from comment */
-.comment-container:last-child::after
-{
+.comment-container:last-child::after{
     position: absolute;
     display: block;
     top: 60px;
