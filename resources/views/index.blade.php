@@ -39,9 +39,11 @@
                 </div>
             </div>
             <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 ht-14 rounded-xl">
-                </a>
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 ht-14 rounded-xl">
+                    </a>
+                </div>
                 <div class="mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
@@ -68,7 +70,7 @@
                         </div>
                         <div class="flex items-center space-x-2">
                             <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">Open</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 transition duration-150 ease-in py-2 px-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-7 transition duration-150 ease-in py-2 px-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                     <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
                                 </svg>
@@ -92,25 +94,16 @@
                     <button class="w-20 bg-blue border border-grey-200 text-white hover:border-gray-400 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in px-4 py-3">Voted</button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
+            <div class="flex flex-1 px-2 py-6">
                 <a href="#" class="flex-none">
                     <img src="https://source.unsplash.com/200x200/?woman&crop=woman&v=1" alt="avatar" class="w-14 ht-14 rounded-xl">
                 </a>
-                <div class="mx-4">
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
                     <div class="test-gray-600 mt-3 line-clamp-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quasi non
-                        repellat laudantium blanditiis doloribus ut nulla labore in unde dolorem officia
-                        temporibus commodi, maxime nemo quis aliquam mollitia dolorum reprehenderit sequi
-                        quisquam suscipit sed dignissimos. Consectetur distinctio nostrum aut quam eveniet
-                        dolorem, quo deserunt cumque sit illum nihil! Tenetur dolore consequatur maxime
-                        omnis harum et, minima repudiandae amet, quibusdam accusantium, ipsam quos debitis
-                        modi vero repellendus obcaecati vitae quasi quidem. Perspiciatis iure totam
-                        aperiam eveniet veniam! Quibusdam ipsa sunt neque numquam totam maxime. Quibusdam,
-                        excepturi suscipit beatae aliquid nulla culpa, doloribus fugiat officia ullam
-                        qui voluptatem. Iste, optio facilis!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </div>
                     <div class="flex items-center justify-between mt-6">
                         <div class="flex text-xs text-gray-400 font-semibold space-x-2">
